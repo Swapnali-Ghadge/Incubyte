@@ -24,4 +24,30 @@ public class StringCalculatorTest {
 	}
 
 	
+
+	@Test
+    public void testThreeNumbers(){
+    	assertEquals(6, Calculator.add("1,2,3"));
+    }
+
+    @Test
+    public void testNewLine(){
+    	assertEquals(6, Calculator.add("1\n2,3"));
+    }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
