@@ -18,9 +18,10 @@ public class StringCalculatorTest {
 	}
 
 	
-	
-	
-	
-	
+	@Test
+	public void testOneNumber() {
+		assertEquals(1, Calculator.add("1"));
+	}
+
 	
 }
