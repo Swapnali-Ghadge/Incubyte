@@ -10,5 +10,17 @@ public class StringCalculatorTest {
 	public void test() {
 		fail("Not yet implemented");
 	}
+   
 
+	@Test
+	public void testEmptyString() {
+		assertEquals(0, Calculator.add(""));
+	}
+
+	
+	
+	
+	
+	
+	
 }
